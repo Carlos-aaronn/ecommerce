@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  font-family: "Archivo", sans-serif;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner a {
+  border-top: 15%;
+  color: white; /* Cambia el color del texto */
+  text-decoration: none; /* Elimina el subrayado */
+  padding: 10px 20px; /* Espaciado interno */
+  transition: color 0.3s, background-color 0.3s; /* Transiciones suaves */
+}
+.banner a:hover {
+  color: #fff; /* Color del texto al pasar el ratón */
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo al pasar el ratón */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.banner a.active {
+  color: #fff; /* Color del enlace activo */
+  font-weight: 700; /* Grosor del texto del enlace activo */
+}
+.logo {
+  height: 50px;
+}
+.logo img {
+  height: 100%;
+  vertical-align: top;
+  width: auto;
+}
+
+.contenido {
+  text-align: center;
+  padding: 30px;
+}
+
+.contenido h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.contenido p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.imagen-bienvenida {
+  width: 100%;
+  max-width: 600px;
+  height: 160px;
+  width: 440px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}

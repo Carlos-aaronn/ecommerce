@@ -1,0 +1,44 @@
+/* Estilos para el fondo de la sección superior */
+.header{
+  background-image: url('img/fondo2.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Ajusta la altura de la imagen según tus necesidades */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+  
+  /* Estilos para el título */
+.titulo {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  padding: 20px;
+  font-size: 36px;
+}
+  
+  /* Estilos para el banner */
+.banner {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+  display: flex;
+  justify-content: space-around;
+}
+
+  /* Estilos para los enlaces del banner */
+.banner a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+  /* Contenido principal */
+.contenido-principal {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
